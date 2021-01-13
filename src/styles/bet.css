@@ -1,0 +1,147 @@
+body .bet{
+  padding-left: 135px;
+  padding-top: 50px;
+  width: 64%;
+}
+body .bet h2{
+  font-weight: bold;
+  
+}
+
+body .bet p{
+  max-width: 740px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 27px;
+}
+
+body .bet .title {
+  display:flex;
+  margin-bottom: 25px;
+}
+
+body .bet .title h1 {
+  font-weight: lighter;
+  margin-right: 8px;
+  font-size:24px;
+  
+}
+
+body .bet .title h1:first-child {
+  font-weight: bold;
+}
+
+body .bet .buttons-game {
+  margin-top:20px;
+  margin-bottom: 28px;
+}
+
+body .bet .buttons-game button {
+    width: 113px;
+    height: 34px;
+    margin-right: 25px;
+
+    border-radius: 100px;
+}
+
+body .bet .buttons-game button:focus {
+  outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+body .bet .buttons-game .facil {
+  border: 2px solid #7F3992;
+  color: #7F3992;
+}
+body .bet .buttons-game .facilactive {
+  border: 2px solid #7F3992;
+  color: #fff;
+  background-color: #7F3992
+}
+
+body .bet .buttons-game .mega {
+  border: 2px solid #01AC66;
+  color: #01AC66;
+}
+
+body .bet .buttons-game .megaactive {
+  border: 2px solid #01AC66;
+  color: #fff;
+  background-color: #01AC66;
+}
+
+body .bet .buttons-game .mania {
+  border: 2px solid #F79C31;
+  color: #F79C31;
+}
+
+body .bet .buttons-game .maniaactive {
+  border: 2px solid #F79C31;
+  color: #fff;
+  background-color: #F79C31;
+}
+
+body .bet .numbers{
+  display: flex;
+  
+}
+
+body .bet .numbers .section{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-right: 20px;
+}
+
+body .bet .numbers button{
+  width:63px;
+  height: 65px;
+  background-color: #ADC0C4;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  margin-right: 12px;
+  margin-bottom: 7px;
+}
+
+body .buttons {
+  display: flex;
+  margin-top: 30px;
+}
+body .buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  height: 52px;
+  width: 135px;
+  border-radius: 10px;
+  border: 1px solid #27C383;
+  color:#27C383;
+  transition: background 0.4;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+}
+
+body .buttons button:hover {
+  background-color: #27C383;
+  color: #fff;
+}
+
+body .buttons .add {
+  background-color: #27C383;
+  color: #fff;
+  width: 209px;
+  margin-left: 140px;
+}
+
+body .buttons .add img {
+  background-color: #27C383;
+  margin-right: 28.86px;
+}
+
+body .buttons .complete {
+  width: 164px;
+}

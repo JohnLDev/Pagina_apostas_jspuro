@@ -1,0 +1,18 @@
+footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 55.5px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+
+  border-top: 1px solid #EBEBEB;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+footer span{
+  font-size: 15px;
+  font-style: normal;
+}

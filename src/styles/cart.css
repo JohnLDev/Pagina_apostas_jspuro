@@ -1,0 +1,126 @@
+body .container .cart *{
+  background-color: #fff;
+  border: none;
+  
+}
+
+body .container .cart{
+  margin-top: 41.5px;
+  background-color: #fff;
+  width: 350px;
+  height: 484px;
+  border-radius:10px;
+  border: 1px solid #E2E2E2;
+  padding-left: 19px;
+  padding-top: 32px;
+  margin-left: 80px;
+  position: relative;
+}
+
+body .container .cart h1{
+  margin-bottom: 35px;
+}
+
+body .container .cart .items {
+  overflow: auto;
+  max-height: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+body .container .cart .items .item{
+  display:flex;
+  align-items: center;
+  max-height: 86px;
+  height: 100%;
+  margin-bottom: 32px;
+}
+
+body .container .cart .items .item .vertical-line{
+  max-height: 86px;
+  height: 86px;
+  width: 4px;
+  margin-left: 14.4px;
+  margin-right: 12px;
+  border-radius:  100px 0 0 100px;
+}
+body .container .cart .items .item .vertical-line-facil{ 
+  background-color: #7F3992;
+}
+
+body .container .cart .items .item .vertical-line-mega{ 
+  background-color: #01AC66;
+}
+
+body .container .cart .items .item .vertical-line-mania{ 
+  background-color: #F79C31;
+
+}
+
+body .container .cart .items .item .data h2{ 
+  font-size: 15px;
+  margin-bottom: 6px;
+  max-width: 80px;
+}
+
+body .container .cart .items .item .data .price-div{
+  display: flex;
+}
+
+body .container .cart .items .item .data .price-div h2:first-child{
+  margin-right: 14px;
+
+}
+
+body .container .cart .items .item .data .price-div .item-facil{
+  color:#7F3992;
+}
+
+body .container .cart .items .item .data .price-div .item-mega{
+  color:#01AC66;
+}
+
+body .container .cart .items .item .data .price-div .item-mania{
+  color:#F79C31;
+}
+
+body .container .cart .total{
+  display:flex;
+ 
+}
+
+body .container .cart .total h1{
+  font-size: 24px;
+  font-weight:normal;
+  font-style: normal;
+
+}
+
+body .container .cart .total h1:first-child{
+  margin-right: 10px;
+  font-weight:bold;
+  font-style: italic;
+
+}
+
+body .container .cart .save-button{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  color: #27C383;
+  background-color: #F4F4F4;
+  border: 1px solid #E2E2E2;
+  margin-left: -18.7px;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  font-size: 24px;
+  font-weight:bold;
+}
+
+body .container .cart .save-button img{
+  background-color: #F4F4F4;
+  margin-left: 14px;
+}
