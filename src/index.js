@@ -1,5 +1,5 @@
 (function(win, doc){
-
+'use strict';
 
   const ajax = new XMLHttpRequest()
 
