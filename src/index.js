@@ -190,6 +190,10 @@
       return
     }
     alert(`Sua aposta foi feita com sucesso`)
+    $cart.get()[0].innerHTML= ''
+    priceOfCart = 0
+    showCartPrice()
+    clearSelection()
   }
 
 })(window, document)
